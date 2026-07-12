@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+.wrapper{
+    display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:250px;
+    min-height:100vh;
+    background:#0f172a;
+    padding:30px;
+}
+
+.sidebar h2{
+    color:white;
+    margin-bottom:40px;
+}
+
+.sidebar a{
+    display:block;
+    color:#cbd5e1;
+    text-decoration:none;
+    margin:20px 0;
+    transition:.3s;
+}
+
+.sidebar a:hover{
+    color:white;
+    padding-left:10px;
+}
+
+/* Main */
+
+.main{
+    flex:1;
+    padding:40px;
+}
+
+/* Topbar */
+
+.topbar{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+/* Cards */
+
+.dashboard-card{
+    border:none;
+    border-radius:20px;
+    text-align:center;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.4s;
+}
+
+.dashboard-card i{
+    font-size:45px;
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-10px);
+}
